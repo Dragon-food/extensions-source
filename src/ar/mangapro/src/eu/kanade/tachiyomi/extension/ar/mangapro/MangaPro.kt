@@ -1,12 +1,12 @@
 package eu.kanade.tachiyomi.extension.ar.mangapro
 
-import eu.kanade.tachiyomi.multisrc.iken.Iken
+import eu.kanade.tachiyomi.multisource.madara.Madara
+import java.text.SimpleDateFormat
+import java.util.Locale
 
-class MangaPro : Iken(
+class MangaPro : Madara(
     "Manga Pro",
+    "https://prochan.net",
     "ar",
-    "https://promanga.net",
-    "https://api.promanga.net",
-) {
-    override val versionId = 4
-}
+    SimpleDateFormat("MMMM d, yyyy", Locale("ar"))
+)

@@ -7,3 +7,5 @@ class Prochan : Madara(
     "https://prochan.net",
     "ar"
 )
+
+
